@@ -1,0 +1,42 @@
+
+RAxML-NG v. 1.2.2 released on 11.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M2, 8 cores, 16 GB RAM
+
+RAxML-NG was called at 08-Sep-2025 10:50:14 as follows:
+
+raxml-ng --check --msa GmGsAt.align4.cterm.nterm.trim.fasta --model JTT+G --prefix GmGsAt4-candnterm-JTT1
+
+Analysis options:
+  run mode: Alignment validation
+  start tree(s): 
+  random seed: 1757346614
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+[00:00:00] Reading alignment from file: GmGsAt.align4.cterm.nterm.trim.fasta
+[00:00:00] Loaded alignment with 15 taxa and 2122 sites
+
+Alignment comprises 1 partitions and 2122 sites
+
+Partition 0: noname
+Model: JTT+G4m
+Alignment sites: 2122
+Gaps: 30.37 %
+Invariant sites: 31.81 %
+
+
+
+Alignment can be successfully read by RAxML-NG.
+
+
+Execution log saved to: /Users/nickh/GmGsAt4-candnterm-JTT1.raxml.log
+
+Analysis started: 08-Sep-2025 10:50:14 / finished: 08-Sep-2025 10:50:14
+
+Elapsed time: 0.011 seconds
+

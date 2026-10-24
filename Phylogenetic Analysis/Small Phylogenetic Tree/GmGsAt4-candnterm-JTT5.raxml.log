@@ -1,0 +1,54 @@
+
+RAxML-NG v. 1.2.2 released on 11.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M2, 8 cores, 16 GB RAM
+
+RAxML-NG was called at 08-Sep-2025 13:30:23 as follows:
+
+raxml-ng --bsconverge --bs-trees GmGsAt4-candnterm-JTT4.raxml.bootstraps --prefix GmGsAt4-candnterm-JTT5 --seed 1757346614 --threads 7 --bs-cutoff 0.011
+
+Analysis options:
+  run mode: A posteriori bootstrap convergence test
+  start tree(s): 
+  random seed: 1757346614
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (7 threads), thread pinning: OFF
+
+Reading bootstrap trees from file: GmGsAt4-candnterm-JTT4.raxml.bootstraps
+Loaded 1000 trees with 15 taxa.
+
+Performing bootstrap convergence assessment using autoMRE criterion
+
+ # trees        avg WRF       avg WRF in %       # perms: wrf <= 1.10 %     converged?  
+      50         18.302              3.050                          311        NO
+     100         17.147              1.429                          567        NO
+     150         18.096              1.005                          625        NO
+     200         19.996              0.833                          745        NO
+     250         23.722              0.791                          784        NO
+     300         24.754              0.688                          849        NO
+     350         28.224              0.672                          855        NO
+     400         29.020              0.605                          900        NO
+     450         31.142              0.577                          927        NO
+     500         32.682              0.545                          940        NO
+     550         34.888              0.529                          941        NO
+     600         35.378              0.491                          965        NO
+     650         38.238              0.490                          962        NO
+     700         39.194              0.467                          967        NO
+     750         41.978              0.466                          966        NO
+     800         41.256              0.430                          972        NO
+     850         42.802              0.420                          983        NO
+     900         44.280              0.410                          987        NO
+     950         45.646              0.400                          992        YES
+Bootstopping test converged after 950 trees
+
+
+Execution log saved to: /Users/nickh/GmGsAt4-candnterm-JTT5.raxml.log
+
+Analysis started: 08-Sep-2025 13:30:23 / finished: 08-Sep-2025 13:30:23
+
+Elapsed time: 0.663 seconds
+
