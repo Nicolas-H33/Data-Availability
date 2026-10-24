@@ -1,0 +1,391 @@
+ PyMOL(TM) 3.0.4 - Incentive Product
+ Copyright (C) Schrodinger, LLC
+ 
+ This Executable Build integrates and extends Open-Source PyMOL.
+ Detected OpenGL version 2.1. Shaders available.
+ Tessellation shaders not available
+ Detected GLSL version 1.20.
+ OpenGL graphics engine:
+  GL_VENDOR:   Apple
+  GL_RENDERER: Apple M2
+  GL_VERSION:  2.1 Metal - 83.1
+ License Expiry date: 11-jun-2025
+ Detected 8 CPU cores.  Enabled multithreaded rendering.
+PyMOL>load "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/AtROS1_AF3_models/AtROS1_A3_model_0.cif"
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/AtROS1_AF3_models/AtROS1_A3_model_0.cif" loaded as "AtROS1_A3_model_0".
+PyMOL>load "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/AtDME_AF3_models/AtDME_A3_model_0.cif"
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/AtDME_AF3_models/AtDME_A3_model_0.cif" loaded as "AtDME_A3_model_0".
+PyMOL>load "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/AtDML2_AF3_models/AtDML2_A3_model_0.cif"
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/AtDML2_AF3_models/AtDML2_A3_model_0.cif" loaded as "AtDML2_A3_model_0".
+PyMOL>load "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/AtDML3_AF3_models/AtDML3_A3_model_0.cif"
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/AtDML3_AF3_models/AtDML3_A3_model_0.cif" loaded as "AtDML3_A3_model_0".
+PyMOL>load "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/GmROS1_AF3_models/GmROS1_A3_a6_model_0.cif"
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/GmROS1_AF3_models/GmROS1_A3_a6_model_0.cif" loaded as "GmROS1_A3_a6_model_0".
+PyMOL>load "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/GmROS2_AF3_models/GmROS2_A3_a6_model_0.cif"
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/GmROS2_AF3_models/GmROS2_A3_a6_model_0.cif" loaded as "GmROS2_A3_a6_model_0".
+PyMOL>load "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/GmROS3_AF3_models/GmROS3_A3_a6_model_0.cif"
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/GmROS3_AF3_models/GmROS3_A3_a6_model_0.cif" loaded as "GmROS3_A3_a6_model_0".
+PyMOL>load "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/GmDME1_AF3_models/GmDME1_A3_a6_model_0.cif"
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/GmDME1_AF3_models/GmDME1_A3_a6_model_0.cif" loaded as "GmDME1_A3_a6_model_0".
+PyMOL>load "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/GmDME2_AF3_models/GmDME2_A3_a6_model_0.cif"
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "/Users/nickh245/Library/CloudStorage/OneDrive-IowaStateUniversity/Objective 1/Protein Structures Gm & At/Alphafold3 Ara-soybean Wm82.a6.v1/GmDME2_AF3_models/GmDME2_A3_a6_model_0.cif" loaded as "GmDME2_A3_a6_model_0".
+PyMOL>super AtDME, AtROS1
+ MatchAlign: aligning residues (1987 vs 1393)...
+ MatchAlign: score 1921.624
+ ExecutiveAlign: 3696 atoms aligned.
+ ExecutiveRMS: 236 atoms rejected during cycle 1 (RMSD=11.69).
+ ExecutiveRMS: 135 atoms rejected during cycle 2 (RMSD=3.96).
+ ExecutiveRMS: 281 atoms rejected during cycle 3 (RMSD=1.65).
+ ExecutiveRMS: 216 atoms rejected during cycle 4 (RMSD=0.82).
+ ExecutiveRMS: 147 atoms rejected during cycle 5 (RMSD=0.51).
+ Executive: RMSD =    0.418 (2681 to 2681 atoms)
+PyMOL>super AtDML2, AtROS1
+ MatchAlign: aligning residues (1332 vs 1393)...
+ MatchAlign: score 1179.614
+ ExecutiveAlign: 4575 atoms aligned.
+ ExecutiveRMS: 381 atoms rejected during cycle 1 (RMSD=22.76).
+ ExecutiveRMS: 337 atoms rejected during cycle 2 (RMSD=16.30).
+ ExecutiveRMS: 380 atoms rejected during cycle 3 (RMSD=11.60).
+ ExecutiveRMS: 333 atoms rejected during cycle 4 (RMSD=6.88).
+ ExecutiveRMS: 198 atoms rejected during cycle 5 (RMSD=2.99).
+ Executive: RMSD =    1.325 (2946 to 2946 atoms)
+PyMOL>super AtDML3, AtROS1
+ MatchAlign: aligning residues (1105 vs 1393)...
+ MatchAlign: score 1600.964
+ ExecutiveAlign: 3519 atoms aligned.
+ ExecutiveRMS: 293 atoms rejected during cycle 1 (RMSD=13.95).
+ ExecutiveRMS: 143 atoms rejected during cycle 2 (RMSD=4.66).
+ ExecutiveRMS: 248 atoms rejected during cycle 3 (RMSD=2.06).
+ ExecutiveRMS: 203 atoms rejected during cycle 4 (RMSD=1.17).
+ ExecutiveRMS: 134 atoms rejected during cycle 5 (RMSD=0.80).
+ Executive: RMSD =    0.685 (2498 to 2498 atoms)
+PyMOL>super GmROS1, AtROS1
+ MatchAlign: aligning residues (2014 vs 1393)...
+ MatchAlign: score 1459.992
+ ExecutiveAlign: 3552 atoms aligned.
+ ExecutiveRMS: 343 atoms rejected during cycle 1 (RMSD=13.96).
+ ExecutiveRMS: 215 atoms rejected during cycle 2 (RMSD=6.35).
+ ExecutiveRMS: 125 atoms rejected during cycle 3 (RMSD=2.25).
+ ExecutiveRMS: 231 atoms rejected during cycle 4 (RMSD=0.94).
+ ExecutiveRMS: 180 atoms rejected during cycle 5 (RMSD=0.58).
+ Executive: RMSD =    0.420 (2458 to 2458 atoms)
+PyMOL>super GmROS2, AtROS1
+ MatchAlign: aligning residues (1993 vs 1393)...
+ MatchAlign: score 1480.957
+ ExecutiveAlign: 4260 atoms aligned.
+ ExecutiveRMS: 475 atoms rejected during cycle 1 (RMSD=40.54).
+ ExecutiveRMS: 318 atoms rejected during cycle 2 (RMSD=22.34).
+ ExecutiveRMS: 307 atoms rejected during cycle 3 (RMSD=12.09).
+ ExecutiveRMS: 170 atoms rejected during cycle 4 (RMSD=4.79).
+ ExecutiveRMS: 160 atoms rejected during cycle 5 (RMSD=1.56).
+ Executive: RMSD =    0.927 (2830 to 2830 atoms)
+PyMOL>super GmROS3, AtROS1
+ MatchAlign: aligning residues (1742 vs 1393)...
+ MatchAlign: score 883.839
+ ExecutiveAlign: 3324 atoms aligned.
+ ExecutiveRMS: 345 atoms rejected during cycle 1 (RMSD=22.70).
+ ExecutiveRMS: 304 atoms rejected during cycle 2 (RMSD=13.32).
+ ExecutiveRMS: 202 atoms rejected during cycle 3 (RMSD=5.85).
+ ExecutiveRMS: 129 atoms rejected during cycle 4 (RMSD=2.00).
+ ExecutiveRMS: 136 atoms rejected during cycle 5 (RMSD=0.74).
+ Executive: RMSD =    0.433 (2208 to 2208 atoms)
+PyMOL>super GmDME1, AtROS1
+ MatchAlign: aligning residues (1826 vs 1393)...
+ MatchAlign: score 1858.029
+ ExecutiveAlign: 4738 atoms aligned.
+ ExecutiveRMS: 470 atoms rejected during cycle 1 (RMSD=33.93).
+ ExecutiveRMS: 307 atoms rejected during cycle 2 (RMSD=19.52).
+ ExecutiveRMS: 268 atoms rejected during cycle 3 (RMSD=10.80).
+ ExecutiveRMS: 371 atoms rejected during cycle 4 (RMSD=7.40).
+ ExecutiveRMS: 174 atoms rejected during cycle 5 (RMSD=3.17).
+ Executive: RMSD =    1.382 (3148 to 3148 atoms)
+PyMOL>super GmDME2, AtROS1
+ MatchAlign: aligning residues (1866 vs 1393)...
+ MatchAlign: score 1622.069
+ ExecutiveAlign: 4549 atoms aligned.
+ ExecutiveRMS: 390 atoms rejected during cycle 1 (RMSD=32.89).
+ ExecutiveRMS: 381 atoms rejected during cycle 2 (RMSD=23.13).
+ ExecutiveRMS: 337 atoms rejected during cycle 3 (RMSD=14.39).
+ ExecutiveRMS: 254 atoms rejected during cycle 4 (RMSD=8.29).
+ ExecutiveRMS: 260 atoms rejected during cycle 5 (RMSD=4.20).
+ Executive: RMSD =    2.020 (2927 to 2927 atoms)
+PyMOL>ray 500,500
+ Ray: render time: 13.94 sec. = 258.2 frames/hour (13.94 sec. accum.).
+PyMOL>ray 2250,2050
+ Ray: render time: 193.48 sec. = 18.6 frames/hour (207.42 sec. accum.).
+PyMOL>png All9proteins_superim_notrim.png, dpi=600
+ ScenePNG: wrote 2250x2050 pixel image to file "All9proteins_superim_notrim.png".
+PyMOL>hide everything, AtROS1 and resi 1-565
+PyMOL>hide everything, AtROS1 and resi 626-882
+PyMOL>hide everything, AtROS1 and resi 972-
+PyMOL>hide everything, AtDME and resi 1-993
+PyMOL>hide everything, AtDME and resi 1054-1473
+PyMOL>hide everything, AtDME and resi 1563-
+PyMOL>hide everything, AtDML2 and resi 1-534
+PyMOL>hide everything, AtDML2 and resi 595-814
+PyMOL>hide everything, AtDML2 and resi 995-
+PyMOL>hide everything, AtDML3 and resi 1-445
+PyMOL>hide everything, AtDML3 and resi 506-583
+PyMOL>hide everything, AtDML3 and resi 756-
+PyMOL>undo
+PyMOL>hide everything, AtDML3 and resi 764-
+PyMOL>hide everything, GmROS1 and resi 1-1045
+PyMOL>hide everything, GmROS1 and resi 1106-1459
+PyMOL>hide everything, GmROS1 and resi 1640-
+PyMOL>hide everything, GmROS2 and resi 1-968
+PyMOL>hide everything, GmROS2 and resi 1029-1431
+PyMOL>hide everything, GmROS2 and resi 1612-
+PyMOL>hide everything, GmROS3 and resi 1-755
+PyMOL>hide everything, GmROS3 and resi 816-1184
+PyMOL>hide everything, GmROS3 and resi 1365-
+PyMOL>hide everything, GmDME1 and resi 1-820
+PyMOL>hide everything, GmDME1 and resi 881-1314
+PyMOL>hide everything, GmDME1 and resi 1495-
+PyMOL>hide everything, GmDME2 and resi 1-861
+PyMOL>hide everything, GmDME2 and resi 922-1355
+PyMOL>hide everything, GmDME2 and resi 1536-
+PyMOL>ray 2300,2050
+ Ray: render time: 32.20 sec. = 111.8 frames/hour (239.62 sec. accum.).
+PyMOL>ray 2400,2100
+ Ray: render time: 33.96 sec. = 106.0 frames/hour (273.58 sec. accum.).
+PyMOL>ray 2500,2200
+ Ray: render time: 39.63 sec. = 90.8 frames/hour (313.21 sec. accum.).
+PyMOL>ray 2500,2200
+ Ray: render time: 57.91 sec. = 62.2 frames/hour (371.13 sec. accum.).
+PyMOL>png All9proteins_superandtrim.png, dpi=600
+ ScenePNG: wrote 2500x2200 pixel image to file "All9proteins_superandtrim.png".
+PyMOL>Save All9proteins_superandtrim.pse
+  File "toplevel", line 1
+    Save All9proteins_superandtrim.pse
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+Unrecognized command, did you mean one of these?
+  save
+PyMOL>save All9proteins_superandtrim.pse
+ Save: Please wait -- writing session file...
+ Save: wrote "All9proteins_superandtrim.pse".
+PyMOL>color red, all
+ Executive: Colored 120410 atoms and 9 objects.
+PyMOL>color cyan, AtROS1 and resi 566-625
+ Executive: Colored 473 atoms.
+PyMOL>color cyan, AtDME and resi 994-1053
+ Executive: Colored 477 atoms.
+PyMOL>color cyan, AtDML2 and resi 535-594
+ Executive: Colored 467 atoms.
+PyMOL>color cyan, AtDML3 and resi 446-505
+ Executive: Colored 493 atoms.
+PyMOL>color cyan, GmROS1 and resi 1046-1105
+ Executive: Colored 478 atoms.
+PyMOL>color cyan, GmROS2 and resi 969-1028
+ Executive: Colored 478 atoms.
+PyMOL>color cyan, GmROS3 and resi 756-815
+ Executive: Colored 475 atoms.
+PyMOL>color cyan, GmDME1 and resi 821-880
+ Executive: Colored 479 atoms.
+PyMOL>color cyan, GmDME2 and resi 862-921
+ Executive: Colored 479 atoms.
+PyMOL>color purple, AtROS1 and resi 941-971
+ Executive: Colored 247 atoms.
+PyMOL>color purple, AtDME and resi 1532-1562
+ Executive: Colored 244 atoms.
+PyMOL>color purple, AtDML2 and resi 873-903
+ Executive: Colored 242 atoms.
+PyMOL>color purple, AtDML3 and resi 642-672
+ Executive: Colored 246 atoms.
+PyMOL>color purple, GmROS1 and resi 1518-1548
+ Executive: Colored 247 atoms.
+PyMOL>color purple, GmROS2 and resi 1490-1520
+ Executive: Colored 247 atoms.
+PyMOL>color purple, GmROS3 and resi 1243-1273
+ Executive: Colored 246 atoms.
+PyMOL>color purple, GmDME1 and resi 1373-1403
+ Executive: Colored 249 atoms.
+PyMOL>color purple, GmDME2 and resi 1414-1444
+ Executive: Colored 245 atoms.
+PyMOL>color blue, AtROS1 and resi 1038-1054
+ Executive: Colored 120 atoms.
+PyMOL>color blue, AtDME and resi 1629-1645
+ Executive: Colored 124 atoms.
+PyMOL>color blue, AtDML2 and resi 970-986
+ Executive: Colored 122 atoms.
+PyMOL>color blue, AtDML3 and resi 739-755
+ Executive: Colored 122 atoms.
+PyMOL>color blue, GmROS1 and resi 1615-1631
+ Executive: Colored 123 atoms.
+PyMOL>color blue, GmROS2 and resi 1587-1603
+ Executive: Colored 122 atoms.
+PyMOL>color blue, GmROS3 and resi 1340-1356
+ Executive: Colored 122 atoms.
+PyMOL>color blue, GmDME1 and resi 1470-1486
+ Executive: Colored 126 atoms.
+PyMOL>color blue, GmDME2 and resi 1511-1527
+ Executive: Colored 127 atoms.
+PyMOL>color yellow, AtROS1 and resi 584
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, AtROS1 and resi 589
+ Executive: Colored 11 atoms.
+PyMOL>color yellow, AtROS1 and resi 606-608
+ Executive: Colored 24 atoms.
+PyMOL>color yellow, AtROS1 and resi 611
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, AtROS1 and resi 953
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, AtROS1 and resi 971
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, AtROS1 and resi 1012
+ Executive: Colored 14 atoms.
+PyMOL>color yellow, AtROS1 and resi 1028
+ Executive: Colored 12 atoms.
+PyMOL>color yellow, AtDME and resi 1012
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, AtDME and resi 1017
+ Executive: Colored 11 atoms.
+PyMOL>color yellow, AtDME and resi 1034-1036
+ Executive: Colored 24 atoms.
+PyMOL>color yellow, AtDME and resi 1039
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, AtDME and resi 1544
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, AtDME and resi 1562
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, AtDME and resi 1603
+ Executive: Colored 14 atoms.
+PyMOL>color yellow, AtDME and resi 1619
+ Executive: Colored 12 atoms.
+PyMOL>color yellow, AtDML2 and resi 553
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, AtDML2 and resi 558
+ Executive: Colored 11 atoms.
+PyMOL>color yellow, AtDML2 and resi 575-577
+ Executive: Colored 24 atoms.
+PyMOL>color yellow, AtDML2 and resi 580
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, AtDML2 and resi 885
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, AtDML2 and resi 903
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, AtDML2 and resi 944
+ Executive: Colored 14 atoms.
+PyMOL>color yellow, AtDML2 and resi 960
+ Executive: Colored 12 atoms.
+PyMOL>color yellow, AtDML3 and resi 464
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, AtDML3 and resi 469
+ Executive: Colored 11 atoms.
+PyMOL>color yellow, AtDML3 and resi 486-488
+ Executive: Colored 24 atoms.
+PyMOL>color yellow, AtDML3 and resi 491
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, AtDML3 and resi 654
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, AtDML3 and resi 672
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, AtDML3 and resi 713
+ Executive: Colored 14 atoms.
+PyMOL>color yellow, AtDML3 and resi 729
+ Executive: Colored 12 atoms.
+PyMOL>color yellow, GmROS1 and resi 1064
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, GmROS1 and resi 1069
+ Executive: Colored 11 atoms.
+PyMOL>color yellow, GmROS1 and resi 1086-1088
+ Executive: Colored 24 atoms.
+PyMOL>color yellow, GmROS1 and resi 1091
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, GmROS1 and resi 1530
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, GmROS1 and resi 1548
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, GmROS1 and resi 1589
+ Executive: Colored 14 atoms.
+PyMOL>color yellow, GmROS1 and resi 1605
+ Executive: Colored 12 atoms.
+PyMOL>color yellow, GmROS2 and resi 987
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, GmROS2 and resi 992
+ Executive: Colored 11 atoms.
+PyMOL>color yellow, GmROS2 and resi 1009-1011
+ Executive: Colored 24 atoms.
+PyMOL>color yellow, GmROS2 and resi 1014
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, GmROS2 and resi 1502
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, GmROS2 and resi 1520
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, GmROS2 and resi 1561
+ Executive: Colored 14 atoms.
+PyMOL>color yellow, GmROS2 and resi 1577
+ Executive: Colored 12 atoms.
+PyMOL>color yellow, GmROS3 and resi 774
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, GmROS3 and resi 779
+ Executive: Colored 11 atoms.
+PyMOL>color yellow, GmROS3 and resi 796-798
+ Executive: Colored 24 atoms.
+PyMOL>color yellow, GmROS3 and resi 801
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, GmROS3 and resi 1255
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, GmROS3 and resi 1273
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, GmROS3 and resi 1314
+ Executive: Colored 14 atoms.
+PyMOL>color yellow, GmROS3 and resi 1330
+ Executive: Colored 12 atoms.
+PyMOL>color yellow, GmDME1 and resi 839
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, GmDME1 and resi 844
+ Executive: Colored 11 atoms.
+PyMOL>color yellow, GmDME1 and resi 861-863
+ Executive: Colored 24 atoms.
+PyMOL>color yellow, GmDME1 and resi 866
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, GmDME1 and resi 1385
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, GmDME1 and resi 1403
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, GmDME1 and resi 1444
+ Executive: Colored 14 atoms.
+PyMOL>color yellow, GmDME1 and resi 1460
+ Executive: Colored 12 atoms.
+PyMOL>color yellow, GmDME2 and resi 880
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, GmDME2 and resi 885
+ Executive: Colored 11 atoms.
+PyMOL>color yellow, GmDME2 and resi 902-904
+ Executive: Colored 24 atoms.
+PyMOL>color yellow, GmDME2 and resi 907
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, GmDME2 and resi 1426
+ Executive: Colored 9 atoms.
+PyMOL>color yellow, GmDME2 and resi 1444
+ Executive: Colored 8 atoms.
+PyMOL>color yellow, GmDME2 and resi 1485
+ Executive: Colored 14 atoms.
+PyMOL>color yellow, GmDME2 and resi 1501
+ Executive: Colored 12 atoms.
+PyMOL>ray 2600,2300
+ Ray: render time: 41.08 sec. = 87.6 frames/hour (412.21 sec. accum.).
+PyMOL>ray 2700,2400
+ Ray: render time: 45.06 sec. = 79.9 frames/hour (457.27 sec. accum.).
+PyMOL>ray 2800,2500
+ Ray: render time: 50.68 sec. = 71.0 frames/hour (507.95 sec. accum.).
+PyMOL>2850,2550
+PyMOL>ray 2850,2550
+ Ray: render time: 51.48 sec. = 69.9 frames/hour (559.43 sec. accum.).
+PyMOL>ray 2800,2500
+ Ray: render time: 52.92 sec. = 68.0 frames/hour (612.35 sec. accum.).
+PyMOL>png All9proteins_superandtrim_annospecsites.png
+ ScenePNG: wrote 2800x2500 pixel image to file "All9proteins_superandtrim_annospecsites.png".
+PyMOL>save All9proteins_superandtrim_annospecsites.pse
+ Save: Please wait -- writing session file...
+ Save: wrote "All9proteins_superandtrim_annospecsites.pse".
