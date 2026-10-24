@@ -1,0 +1,34 @@
+
+RAxML-NG v. 1.2.2 released on 11.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M2, 8 cores, 16 GB RAM
+
+RAxML-NG was called at 20-Jul-2025 16:23:22 as follows:
+
+raxml-ng --support --tree Gm89-candnterm-JTT2.raxml.bestTree --bs-trees Gm89-candnterm-JTT4.raxml.bootstraps --prefix Gm89-candnterm-JTT6
+
+Analysis options:
+  run mode: Compute bipartition support (Felsenstein Bootstrap)
+  start tree(s): user
+  random seed: 1753046602
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+Reading reference tree from file: Gm89-candnterm-JTT2.raxml.bestTree
+Reference tree size: 89
+
+Reading bootstrap trees from file: Gm89-candnterm-JTT4.raxml.bootstraps
+Loaded 1000 trees with 89 taxa.
+
+Best ML tree with Felsenstein bootstrap (FBP) support values saved to: /Users/nickh/Gm89-candnterm-JTT6.raxml.support
+
+Execution log saved to: /Users/nickh/Gm89-candnterm-JTT6.raxml.log
+
+Analysis started: 20-Jul-2025 16:23:22 / finished: 20-Jul-2025 16:23:22
+
+Elapsed time: 0.109 seconds
+

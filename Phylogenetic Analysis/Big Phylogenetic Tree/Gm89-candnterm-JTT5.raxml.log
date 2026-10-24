@@ -1,0 +1,46 @@
+
+RAxML-NG v. 1.2.2 released on 11.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M2, 8 cores, 16 GB RAM
+
+RAxML-NG was called at 20-Jul-2025 16:21:28 as follows:
+
+raxml-ng --bsconverge --bs-trees Gm89-candnterm-JTT4.raxml.bootstraps --prefix Gm89-candnterm-JTT5 --seed 1752763022 --threads 7 --bs-cutoff 0.0155
+
+Analysis options:
+  run mode: A posteriori bootstrap convergence test
+  start tree(s): 
+  random seed: 1752763022
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (7 threads), thread pinning: OFF
+
+Reading bootstrap trees from file: Gm89-candnterm-JTT4.raxml.bootstraps
+Loaded 1000 trees with 89 taxa.
+
+Performing bootstrap convergence assessment using autoMRE criterion
+
+ # trees        avg WRF       avg WRF in %       # perms: wrf <= 1.55 %     converged?  
+      50        175.980              4.093                            2        NO
+     100        253.106              2.943                            4        NO
+     150        234.557              1.818                          342        NO
+     200        276.680              1.609                          477        NO
+     250        295.507              1.374                          671        NO
+     300        338.635              1.313                          692        NO
+     350        406.071              1.349                          691        NO
+     400        361.491              1.051                          876        NO
+     450        330.140              0.853                          960        NO
+     500        319.862              0.744                          987        NO
+     550        331.063              0.700                          990        YES
+Bootstopping test converged after 550 trees
+
+
+Execution log saved to: /Users/nickh/Gm89-candnterm-JTT5.raxml.log
+
+Analysis started: 20-Jul-2025 16:21:28 / finished: 20-Jul-2025 16:21:30
+
+Elapsed time: 2.108 seconds
+

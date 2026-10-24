@@ -1,0 +1,35 @@
+
+RAxML-NG v. 1.2.2 released on 11.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M2, 8 cores, 16 GB RAM
+
+RAxML-NG was called at 17-Jul-2025 14:26:16 as follows:
+
+raxml-ng --rfdist --tree Gm89-candnterm-JTT2.raxml.mlTrees --prefix Gm89-candnterm-JTT3RF
+
+Analysis options:
+  run mode: RF distance computation
+  start tree(s): user
+  random seed: 1752780376
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+Reading input trees from file: Gm89-candnterm-JTT2.raxml.mlTrees
+Loaded 50 trees with 89 taxa.
+
+Average absolute RF distance in this tree set: 5.180408
+Average relative RF distance in this tree set: 0.030119
+Number of unique topologies in this tree set: 22
+
+Pairwise RF distances saved to: /Users/nickh/Gm89-candnterm-JTT3RF.raxml.rfDistances
+
+Execution log saved to: /Users/nickh/Gm89-candnterm-JTT3RF.raxml.log
+
+Analysis started: 17-Jul-2025 14:26:16 / finished: 17-Jul-2025 14:26:16
+
+Elapsed time: 0.025 seconds
+

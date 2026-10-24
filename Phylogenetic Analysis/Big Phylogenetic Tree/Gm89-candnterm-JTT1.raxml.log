@@ -1,0 +1,49 @@
+
+RAxML-NG v. 1.2.2 released on 11.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M2, 8 cores, 16 GB RAM
+
+RAxML-NG was called at 17-Jul-2025 09:37:02 as follows:
+
+raxml-ng --check --msa Finalseqs89.align.cterm.nterm.trim.fasta --model JTT+G --prefix Gm89-candnterm-JTT1
+
+Analysis options:
+  run mode: Alignment validation
+  start tree(s): 
+  random seed: 1752763022
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+[00:00:00] Reading alignment from file: Finalseqs89.align.cterm.nterm.trim.fasta
+[00:00:00] Loaded alignment with 89 taxa and 2997 sites
+
+WARNING: Sequences GmROS3 and G.soja.03G152500.1 are exactly identical!
+WARNING: Sequences Peanut.K8W5NT.1 and Peanut.AM3VD0.1 are exactly identical!
+WARNING: Duplicate sequences found: 2
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /Users/nickh/Gm89-candnterm-JTT1.raxml.reduced.phy
+
+Alignment comprises 1 partitions and 2997 sites
+
+Partition 0: noname
+Model: JTT+G4m
+Alignment sites: 2997
+Gaps: 53.18 %
+Invariant sites: 20.59 %
+
+
+
+Alignment can be successfully read by RAxML-NG.
+
+
+Execution log saved to: /Users/nickh/Gm89-candnterm-JTT1.raxml.log
+
+Analysis started: 17-Jul-2025 09:37:02 / finished: 17-Jul-2025 09:37:02
+
+Elapsed time: 0.012 seconds
+

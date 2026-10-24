@@ -1,0 +1,137 @@
+
+RAxML-NG v. 1.2.2 released on 11.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M2, 8 cores, 16 GB RAM
+
+RAxML-NG was called at 17-Jul-2025 09:40:30 as follows:
+
+raxml-ng --msa Finalseqs89.align.cterm.nterm.trim.fasta --model JTT+G --prefix Gm89-candnterm-JTT2 --threads 7 --seed 1752763022 --tree pars{25},rand{25} --outgroup C.japonica
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): random (25) + parsimony (25)
+  outgroup taxa: C.japonica
+  random seed: 1752763022
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  logLH epsilon: general: 10.000000, brlen-triplet: 1000.000000
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  fast CLV updates: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (7 threads), thread pinning: OFF
+
+[00:00:00] Reading alignment from file: Finalseqs89.align.cterm.nterm.trim.fasta
+[00:00:00] Loaded alignment with 89 taxa and 2997 sites
+
+WARNING: Sequences GmROS3 and G.soja.03G152500.1 are exactly identical!
+WARNING: Sequences Peanut.K8W5NT.1 and Peanut.AM3VD0.1 are exactly identical!
+WARNING: Duplicate sequences found: 2
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /Users/nickh/Gm89-candnterm-JTT2.raxml.reduced.phy
+
+Alignment comprises 1 partitions and 2664 patterns
+
+Partition 0: noname
+Model: JTT+G4m
+Alignment sites / patterns: 2997 / 2664
+Gaps: 53.18 %
+Invariant sites: 20.59 %
+
+
+NOTE: Binary MSA file created: Gm89-candnterm-JTT2.raxml.rba
+
+Parallelization scheme autoconfig: 1 worker(s) x 7 thread(s)
+
+[00:00:00] Generating 25 random starting tree(s) with 89 taxa
+[00:00:00] Generating 25 parsimony starting tree(s) with 89 taxa
+Parallel parsimony with 7 threads
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 381 / 30480
+[00:00:00] Data distribution: max. searches per worker: 50
+
+Starting ML tree search with 50 distinct starting trees
+
+[00:07:36] ML tree search #1, logLikelihood: -163559.081757
+[00:12:01] ML tree search #2, logLikelihood: -163557.484620
+[00:16:51] ML tree search #3, logLikelihood: -163552.046744
+[00:21:32] ML tree search #4, logLikelihood: -163552.344179
+[00:26:22] ML tree search #5, logLikelihood: -163552.350025
+[00:30:46] ML tree search #6, logLikelihood: -163552.914591
+[00:35:05] ML tree search #7, logLikelihood: -163552.435149
+[00:39:45] ML tree search #8, logLikelihood: -163552.557699
+[00:43:57] ML tree search #9, logLikelihood: -163553.336345
+[00:48:09] ML tree search #10, logLikelihood: -163553.331914
+[00:53:14] ML tree search #11, logLikelihood: -163553.027747
+[00:58:02] ML tree search #12, logLikelihood: -163552.781601
+[01:02:39] ML tree search #13, logLikelihood: -163552.449471
+[01:06:49] ML tree search #14, logLikelihood: -163553.338293
+[01:11:09] ML tree search #15, logLikelihood: -163552.344018
+[01:15:28] ML tree search #16, logLikelihood: -163552.939981
+[01:21:04] ML tree search #17, logLikelihood: -163552.349229
+[01:25:39] ML tree search #18, logLikelihood: -163552.434755
+[01:30:37] ML tree search #19, logLikelihood: -163552.050173
+[01:34:51] ML tree search #20, logLikelihood: -163552.842541
+[01:39:27] ML tree search #21, logLikelihood: -163552.436663
+[01:44:16] ML tree search #22, logLikelihood: -163552.345775
+[01:48:41] ML tree search #23, logLikelihood: -163552.807690
+[01:53:21] ML tree search #24, logLikelihood: -163552.434786
+[01:58:08] ML tree search #25, logLikelihood: -163552.345368
+[02:01:25] ML tree search #26, logLikelihood: -163552.842101
+[02:04:36] ML tree search #27, logLikelihood: -163552.343993
+[02:08:15] ML tree search #28, logLikelihood: -163552.045244
+[02:11:39] ML tree search #29, logLikelihood: -163554.354224
+[02:15:14] ML tree search #30, logLikelihood: -163552.512608
+[02:18:27] ML tree search #31, logLikelihood: -163552.434711
+[02:21:56] ML tree search #32, logLikelihood: -163552.434777
+[02:25:34] ML tree search #33, logLikelihood: -163555.239073
+[02:28:52] ML tree search #34, logLikelihood: -163552.434877
+[02:33:01] ML tree search #35, logLikelihood: -163552.343939
+[02:36:22] ML tree search #36, logLikelihood: -163552.524803
+[02:40:01] ML tree search #37, logLikelihood: -163552.045234
+[02:43:40] ML tree search #38, logLikelihood: -163552.434666
+[02:46:58] ML tree search #39, logLikelihood: -163552.434748
+[02:51:13] ML tree search #40, logLikelihood: -163552.045262
+[02:54:32] ML tree search #41, logLikelihood: -163552.429264
+[02:58:17] ML tree search #42, logLikelihood: -163552.045405
+[03:01:53] ML tree search #43, logLikelihood: -163552.882344
+[03:06:12] ML tree search #44, logLikelihood: -163552.841875
+[03:09:59] ML tree search #45, logLikelihood: -163552.796259
+[03:13:43] ML tree search #46, logLikelihood: -163552.344669
+[03:17:31] ML tree search #47, logLikelihood: -163553.329767
+[03:21:27] ML tree search #48, logLikelihood: -163552.841918
+[03:25:14] ML tree search #49, logLikelihood: -163552.344004
+[03:29:06] ML tree search #50, logLikelihood: -163553.329679
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.811302 (ML),  weights&rates: (0.250000,0.097961) (0.250000,0.411645) (0.250000,0.960038) (0.250000,2.530356) 
+   Base frequencies (model): 0.076748 0.051691 0.042645 0.051544 0.019803 0.040752 0.061830 0.073152 0.022944 0.053761 0.091904 0.058676 0.023826 0.040126 0.050901 0.068765 0.058565 0.014261 0.032102 0.066005 
+   Substitution rates (model): 58.000000 54.000000 81.000000 56.000000 57.000000 105.000000 179.000000 27.000000 36.000000 30.000000 35.000000 54.000000 15.000000 194.000000 378.000000 475.000000 9.000000 11.000000 298.000000 45.000000 16.000000 113.000000 310.000000 29.000000 137.000000 328.000000 22.000000 38.000000 646.000000 44.000000 5.000000 74.000000 101.000000 64.000000 126.000000 20.000000 17.000000 528.000000 34.000000 86.000000 58.000000 81.000000 391.000000 47.000000 12.000000 263.000000 30.000000 10.000000 15.000000 503.000000 232.000000 8.000000 70.000000 16.000000 10.000000 49.000000 767.000000 130.000000 112.000000 11.000000 7.000000 26.000000 15.000000 4.000000 15.000000 59.000000 38.000000 4.000000 46.000000 31.000000 9.000000 5.000000 59.000000 69.000000 17.000000 23.000000 7.000000 31.000000 78.000000 14.000000 223.000000 42.000000 115.000000 209.000000 62.000000 323.000000 26.000000 597.000000 9.000000 72.000000 292.000000 43.000000 4.000000 164.000000 53.000000 51.000000 18.000000 24.000000 20.000000 119.000000 26.000000 12.000000 9.000000 181.000000 18.000000 5.000000 18.000000 30.000000 32.000000 10.000000 7.000000 45.000000 23.000000 6.000000 6.000000 27.000000 14.000000 5.000000 24.000000 201.000000 33.000000 55.000000 8.000000 47.000000 16.000000 56.000000 45.000000 33.000000 40.000000 115.000000 73.000000 46.000000 8.000000 573.000000 11.000000 229.000000 21.000000 479.000000 89.000000 10.000000 40.000000 245.000000 9.000000 32.000000 961.000000 14.000000 388.000000 248.000000 102.000000 59.000000 25.000000 52.000000 24.000000 180.000000 65.000000 4.000000 21.000000 47.000000 103.000000 10.000000 8.000000 14.000000 43.000000 16.000000 29.000000 226.000000 24.000000 18.000000 323.000000 17.000000 92.000000 12.000000 53.000000 536.000000 62.000000 285.000000 118.000000 6.000000 10.000000 23.000000 477.000000 35.000000 63.000000 38.000000 12.000000 21.000000 112.000000 71.000000 25.000000 16.000000 
+
+
+Final LogLikelihood: -163552.045234
+
+AIC score: 327456.090468 / AICc score: 327478.184085 / BIC score: 328513.035072
+Free parameters (model + branch lengths): 176
+
+Best ML tree saved to: /Users/nickh/Gm89-candnterm-JTT2.raxml.bestTree
+All ML trees saved to: /Users/nickh/Gm89-candnterm-JTT2.raxml.mlTrees
+Optimized model saved to: /Users/nickh/Gm89-candnterm-JTT2.raxml.bestModel
+
+Execution log saved to: /Users/nickh/Gm89-candnterm-JTT2.raxml.log
+
+Analysis started: 17-Jul-2025 09:40:30 / finished: 17-Jul-2025 13:09:36
+
+Elapsed time: 12546.292 seconds
+
