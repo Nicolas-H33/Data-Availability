@@ -1,0 +1,6 @@
+We used the same phylogenetic tree generated in RAxML-NG and codon alignment generated in Pal2Nal for each run done in codeml. A run
+was done based on the whole phylogenetic tree (One ratio), and invididual runs for each gene selected as the foreground
+(Branch-site models with their corresponding nulls). While the phylogenetic tree remains the same, for the branch-site models each
+selected foreground gene is marked with #1. Because multiple codeml analysis were done (11 runs) you will see multiple copies of the
+Phylogenetic tree file and PalsNal alignment of the soybean DMTase genes. Null folders will be stored inside their corresponding
+branch-site model gene folder. The txt file in each analysis is the results.
