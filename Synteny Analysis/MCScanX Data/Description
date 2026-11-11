@@ -1,1 +1,5 @@
-
+For all collinearity analysis, we downloaded all files for protein and cds sequences and gff3 from the assembled genomes on JGI Phytozome, then filtered them as needed.
+raw file names:
+A. thaliana (TAIR10) - Athaliana_167_TAIR10.gene.gff3, Athaliana_167_TAIR10.protein.fa
+P. vulgaris (v2.1) - Pvulgaris_442_v2.1.gene.gff3, Pvulgaris_442_v2.1.protein.fa
+G. max (Wm82.a6.v1) - Gmax_880_Wm82.a6.v1.gene.gff3, Gmax_880_Wm82.a6.v1.protein.fa
